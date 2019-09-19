@@ -3,5 +3,9 @@ article {
 }
 
 article>h1 {
-    color: cadetblue;
+    color: bisque;
+}
+
+article h1 {
+    color: ghostwhite;
 }
