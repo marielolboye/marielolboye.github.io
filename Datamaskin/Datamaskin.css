@@ -1,0 +1,7 @@
+article {
+    background-color: lightslategrey;
+}
+
+article>h1 {
+    color: cadetblue;
+}
