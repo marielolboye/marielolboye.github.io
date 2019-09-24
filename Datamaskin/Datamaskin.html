@@ -10,8 +10,19 @@
 </head>
 
 <body>
+    <script>
+        function hide() {
+            e.target.style.display = "none";
+        }
+
+        function helpme() {
+            // alert ("HELP ME");
+            document.location.href = "https://vg.no"
+        }
+    </script>
     <header>
         <h1>Datamaskinens oppbygning og virkemåte</h1>
+        <button onclick="helpme()">"helpme"</button>
     </header>
     <main>
         <article>
@@ -20,13 +31,28 @@
                 <p>
                     Intel er en amerikansk produsent av mikroprosessorer.
                     <br> Intel er et sammentrukket ord av de engelske ordene integrated og electronics.
+                    <br> Grunnlagt 1968 - laget intel 4004 CPU, 4 bits cpu.
+                    <br>
+                    <div>
+                        <!-- bilde av en 8086-->
+                        <img id="Intel" src="Intel D8086-1 - haut.jpg" alt="8086 intel">
+
+
+
+                    </div>
                 </p>
                 <h1>AMD</h1>
                 <p>
                     AMD står for Advanced Micro Devices.
                     <br> Det er en amerikansk storprodusent av mikroprosessorer.
                     <br> Hovedkonkurrenten til AMD er Intel, som tidligere nevnt også er en amerikansk produsent av mikroprosessorer.
+                    <div>
+                        <!-- bilde av en AMD valgfritt-->
+                        <img src="AMD.jpg" alt="AMD" </div>
+
+
                 </p>
+
                 <h1>Prossesor</h1>
                 <p>
                     Prosessoren er hjernen i datamaskinen.
@@ -36,7 +62,17 @@
                     <br> og den er det primære elementet som gjennomfører datamaskinens funksjoner.
 
                 </p>
-            </div>
+                <h1>ARM</h1>
+                <p>
+                    Acon (Advanced) RISC (Reduced Instruction Set Computer) Machine.
+                    <br> RISC CPUer har få og enkle instruksjoner (i motsetning til Intel). Hver instruksjon skal ta minst mulig tid. Kompliserte beregninger består av mange instruksjoner.
+                    <br> Brukes i mobiler (i nesten alle).
+                </p>
+                <div>
+                    <!-- bilde av en arm brukt i en mobil-->
+                    <img src="ARM_yey.jpg" alt="ARM" </div>
+
+                </div>
         </article>
         <article>
             <h1>RAM</h1>

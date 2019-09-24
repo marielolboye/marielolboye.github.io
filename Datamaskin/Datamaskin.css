@@ -5,3 +5,12 @@ article>h1 {
 article h1 {
     color: lightslategray;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#Intel {
+    width: 400px;
+}
