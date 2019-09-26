@@ -12,7 +12,10 @@
 <body>
     <script>
         function hide() {
-            e.target.style.display = "none";
+            let t = document.getElementById("hide");
+            t.style.position = "relative";
+            let left = +(t.style.left.replace("pc", "")) + 20;
+            t.style.left = left + "px";
         }
 
         function helpme() {
@@ -22,7 +25,7 @@
     </script>
     <header>
         <h1>Datamaskinens oppbygning og virkemåte</h1>
-        <button onclick="helpme()">"helpme"</button>
+        <button onclick=helpme()>"helpme"</button>
     </header>
     <main>
         <article>
