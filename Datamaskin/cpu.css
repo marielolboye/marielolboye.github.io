@@ -1,25 +1,87 @@
-#controll {}
+#controll {
+    width: 110px;
+    height: 50px;
+    top: 50px;
+    left: 120px;
+    background-color: peru;
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
 
-#processor {}
+#processor {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 10px;
+    left: 80px;
+    top: 120px;
+    background-color: darksalmon;
+    text-align: center;
+}
 
-#registers {}
+#registers {
+    height: 40px;
+    width: 110px;
+    top: 160px;
+    left: 120px;
+    background-color: peru;
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
 
-#alu {}
+#alu {
+    height: 60px;
+    width: 110px;
+    top: 230px;
+    left: 120px;
+    background-color: peru;
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
 
-#memory {}
+#memory {
+    top: 430px;
+    width: 110px;
+    height: 60px;
+    left: 370px;
+    background-color: peru;
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
 
-#input {}
+#input {
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    top: 300px;
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
 
-#output {}
+#output {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid black 2px;
+    left: 650px;
+    top: 300px;
+    text-align: center;
+}
 
 #cpu {
-    left: 100px;
+    left: 250px;
     top: 50px;
-    background-color: bisque;
+    background-color: lightcoral;
     width: 350px;
     height: 350px;
     border: solid black 2px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .firkant {
@@ -28,5 +90,5 @@
     top: 0;
     width: 100px;
     height: 100px;
-    background-color: lightslategray;
+    background-color: peru;
 }
