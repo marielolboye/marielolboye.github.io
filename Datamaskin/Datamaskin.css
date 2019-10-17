@@ -14,3 +14,23 @@ img {
 #Intel {
     width: 400px;
 }
+
+td,
+th,
+table {
+    border: solid grey 1px;
+    padding: 4px;
+    margin: 1em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: burlywood;
+}
+
+thead {
+    background-color: peru;
+}
+
+body {
+    background-color: lightyellow;
+}

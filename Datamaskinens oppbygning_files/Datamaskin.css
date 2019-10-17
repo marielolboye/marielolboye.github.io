@@ -1,0 +1,16 @@
+article>h1 {
+    color: bisque;
+}
+
+article h1 {
+    color: lightslategray;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#Intel {
+    width: 400px;
+}
