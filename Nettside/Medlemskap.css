@@ -5,11 +5,12 @@ span.overskrift1 {
 
 h1 {
     color: lightskyblue;
-    text-align: center
+    text-align: left;
 }
 
 h2 {
     color: lightblue;
+    top: 150px;
     font-size: 20px;
 }
 
@@ -21,6 +22,7 @@ div {
     list-style: none;
     margin: 10px;
     padding: 10px;
+    top: 200px;
 }
 
 th {
@@ -35,6 +37,27 @@ table {
     padding: 2px;
 }
 
-header.knapp {
-    top: 150px;
+#velg {
+    top: 100px;
+    left: 5px;
+}
+
+#alder {
+    top: 100px;
+    left: 210px;
+}
+
+#navn {
+    top: 100px;
+    left: 350px;
+}
+
+#etternavn {
+    top: 100px;
+    left: 490px;
+}
+
+#knapp {
+    top: 118px;
+    left: 625px;
 }
