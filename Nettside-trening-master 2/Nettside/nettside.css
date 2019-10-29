@@ -1,0 +1,46 @@
+#hjem {
+    position: fixed;
+    left: 0;
+    top: -16px;
+    list-style: none;
+    padding: 10px;
+    background-color: pink;
+    width: 100%;
+}
+
+#hjem li {
+    display: block;
+    width: 120px;
+    height: 1em;
+    padding: 5px;
+    float: left;
+    margin-left: 2px;
+    border: 1px solid #000;
+    background-color: rgb(189, 226, 250);
+}
+
+h1 {
+    position: absolute;
+    top: 65px;
+    left: 460px;
+    color: lightskyblue;
+}
+
+img {
+    height: 200px;
+    width: 370px;
+}
+
+.start-video {
+    float: left;
+    width: 100%;
+}
+
+embed,
+iframe,
+object,
+video {
+    position: relative;
+    max-width: 100%;
+    top: 142px;
+}
