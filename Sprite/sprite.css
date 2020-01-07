@@ -1,0 +1,38 @@
+#game {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: solid 1px gray;
+    background-color: whitesmoke;
+}
+
+#game div {
+    position: absolute;
+}
+
+.tree {
+    width: 30px;
+    height: 30px;
+    background-image: url(juletre.png);
+    background-size: 30px;
+}
+
+.bird {
+    width: 30px;
+    height: 30px;
+    background-image: url(santa.gif);
+    border-radius: 50%;
+    background-size: 30px;
+}
+
+.fly {
+    width: 30px;
+    height: 30px;
+    background-image: url(giphy.gif);
+    background-position-x: 0px;
+    background-size: 30px;
+}
+
+body {
+    background: linear-gradient(45deg, black, blue);
+}

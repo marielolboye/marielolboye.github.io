@@ -1,0 +1,41 @@
+h1 {
+    color: tan;
+    height: 8vh;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#julekal {
+    background-image: url("julebilde2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid 1px gray;
+    width: 90vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+.luker {
+    width: 100px;
+    height: 50px;
+    border: solid red 1px;
+    text-align: center;
+    background-position: center;
+}
+.luker:hover {
+    background-size: cover;
+}
+.luker:nth-child(1):hover {
+    background-image: url(julegave.jpg);
+    width: 70px;
+    height: 30px;
+}

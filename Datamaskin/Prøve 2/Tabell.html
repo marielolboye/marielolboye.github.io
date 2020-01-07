@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabell.css</title>
+</head>
+<body>
+    CREATE TABLE kunde (
+  kundeid serial primary key,
+  navn text not null,
+  adresse text
+);
+
+CREATE TABLE tannlege (
+tannlegeid serial primary key,
+navn text not null,
+mobil text not null
+);
+
+CREATE TABLE behandling (
+  behandlingid serial primary key,
+  timer text, 
+  pris int default = 1200,
+  betalt text betalt = 'ja' or betalt = 'nei',
+  kundeid int references frisor (frisorid),
+  tannlegeid int references kunde (kundeid)
+);
+</body>
+</html>
